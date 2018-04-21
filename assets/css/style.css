@@ -1,0 +1,40 @@
+body {
+    position: center;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+/* .container {     */
+    /* font-size: 25px;
+    text-align: center;
+    line-height: 2;
+    color: white; */
+/* } */
+
+#main-content {   
+    background-color: lightblue;
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;  
+    margin-bottom: 200px;
+    border: dashed 3px;
+    height: 40%;
+    width: 70%;
+    line-height: 3;
+}
+
+#display {
+    background-image: url(../images/img1.jpg);
+    size: 100%; 
+}
+
+/* #emptySpace {
+    width: 30%;
+} */
+
