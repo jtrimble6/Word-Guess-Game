@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <h1>2017 HIP-HOP TOP SONGS</h1>
+        <h1>ALL-TIME GREAT MOVIES</h1>
 
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -10,39 +10,23 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-        <container>
+        <div class="container">
             <div class="row" id="main-content">
-                <!-- <div class="col-md-2" id="emptySpace"></div> -->
-
-                <div class="col-md-6" id="display">
-        
-                
+    
+                <div class="col-sm" id="display">
+                    <p>Instructions:</p>
+                    <p>1) Press the respective key to guess a letter.</p>
+                    <p>2) You have (12) guesses to complete the hidden title of a phenomenal movie.</p>
+                    <p>3) Each incorrect letter that is guessed will be displayed under the hidden title.</p>
+                    <p>4) If you reach (12) incorrect guesses, the game will end.</p>
+                    <p>5) Complete consecutive hidden titles to increase your wins and set a new high score.</p>
+                    <p>6) Good luck!</p>
                 </div>
-
                 
-                <div class="col-md-6" id="stats">
-                    <script src="assets/javascript/game.js"></script>
-                    <!-- <p id="wins"></p>
-                    <p id="guessesLeft"></p>
-                    <p id="lettersGuessed"></p>
-                    <p id="computerGuess"></p>
-                    <p id="letterCount"></p>
-                     -->
-                    <!-- <p>
-                        Wins:
-                    </p>
-                    <p>
-                        Current Word
-                    </p>
-                    <p>
-                        Number of Guesses Remaining:
-                    </p>
-                    <p>
-                        Letters Already Guessed:
-                    </p> --> 
-                </div>
-                <!-- <div class="col-md-2" id="emptySpace"></div> -->
+                <div class="col-sm" id="stats"></div>
+    
             </div>
-        </container>
+        </div>
     </body>
+    <script src="assets/javascript/game.js"></script>
 </html>
